@@ -1,21 +1,31 @@
 {
-  "name": "wxcloudrun-express",
+  "name": "weApp",
   "version": "1.0.0",
-  "description": "微信云托管 express 框架模版",
-  "main": "index.js",
+  "description": "weApp-wechat",
+  "author": "liujians <870891018@qq.com>",
+  "private": true,
   "scripts": {
-    "start": "node index.js"
+    "dev": "node server/server.js"
   },
-  "author": "",
-  "license": "Apache-2.0",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.16.4",
-    "morgan": "^1.10.0",
-    "mysql2": "^2.3.2",
-    "sequelize": "^6.8.0"
-  },
-  "engines": {
-    "node": ">=12.0.0"
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-transform-runtime": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-preset-stage-2": "^6.0.0",
+    "babel-register": "^6.0.0",
+    "body-parser": "^1.15.2",
+    "css-loader": "^0.25.0",
+    "express": "^4.13.3",
+    "file-loader": "^0.8.4",
+    "formidable": "^1.0.17",
+    "function-bind": "^1.0.2",
+    "jquery": "^3.1.1",
+    "json-loader": "^0.5.4",
+    "nodejs-websocket": "^1.7.0",
+    "socket.io": "^1.5.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "ws": "^1.1.1"
   }
 }
