@@ -8,7 +8,7 @@ var server = require('http').createServer()
   , url = require('url')
   , WebSocketServer = require('ws').Server
   , wss = new WebSocketServer({ server: server })
-  , port = 80;
+  , port = 8080;
 
    
 app.use(bodyParser.json());
@@ -341,7 +341,7 @@ app.get("/wsConnect.php",function(req,res){
 
 })
  
-app.set("port",80);
+app.set("port",8080);
 app.listen(app.get("port"),function(){
     console.log("服务器已启动...");
 })
