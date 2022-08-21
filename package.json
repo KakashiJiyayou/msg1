@@ -5,7 +5,7 @@
   "author": "liujians <870891018@qq.com>",
   "private": true,
   "scripts": {
-    "dev": "node server/server.js"
+    "dev": "node index.js"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
